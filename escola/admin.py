@@ -20,7 +20,7 @@ admin.site.register(Curso, ListarCursos)
 
 
 class ListarMatriculas(admin.ModelAdmin):
-    list_display = ('id', 'aluno', 'curso', 'nivel')
+    list_display = ('id', 'aluno', 'curso', 'periodo')
     list_display_links = ('id', 'aluno', 'curso',)
 
 admin.site.register(Matricula, ListarMatriculas)
